@@ -1,103 +1,85 @@
-/* 0.5.4 2021-04-23 21:06:13 */
+/* 0.5.0 2022-02-02 00:00:00 */
 var app = new function() {
-    this.name = "Little Miss", this.version = "2", this.date = "2012", this.folder = "asset-v2/", this.looptime = 4800, this.bpm = 100, this.totalframe = 232, this.nbpolo = 7, this.nbloopbonus = 4, this.bonusloopA = !0, this.bonusendloopA = !0, this.recmaxloop = 38, this.recminloop = 5, this.recmintime = Math.round(this.looptime / 1e3) * this.recminloop, this.spritepolo = "polo-sprite.png", this.spritepicto = "game-picto.png", this.colBck = "#1c0d0d", this.col0 = "#EB4B4B", this.col1 = "#C32D2D", this.col2 = "#9B2323", this.col3 = "#691E1E", this.col4 = "#371919", this.animearray = [{
-        name: "beat1_boom",
-        color: "828282",
-        uniqsnd: !1
-    }, {
-        name: "beat2_kashi",
-        color: "828282",
-        uniqsnd: !1
-    }, {
-        name: "beat3_paomeu",
-        color: "828282",
+    this.name = "Airline", this.version = "2", this.date = "2022", this.folder = "asset-v2/", this.looptime = 6400, this.bpm = 110, this.totalframe = 328, this.nbpolo = 7, this.nbloopbonus = 6, this.bonusloopA = !0, this.bonusendloopA = !1, this.recmaxloop = 27, this.recminloop = 4, this.recmintime = Math.round(this.looptime / 1e3) * this.recminloop, this.spritepolo = "polo-sprite.png", this.spritepicto = "game-picto.png", this.colBck = "#581845", this.col0 = "#FF5733", this.col1 = "#C70039", this.col2 = "#C70039", this.col3 = "#900C3F", this.col4 = "#581845", this.animearray = [{
+        name: "1_staffell",
+        color: "900C3F",
         uniqsnd: !0
     }, {
-        name: "beat4_ptttpeu",
-        color: "828282",
-        uniqsnd: !1
-    }, {
-        name: "beat5_slupttt",
-        color: "828282",
+        name: "2_mike",
+        color: "900C3F",
         uniqsnd: !0
     }, {
-        name: "effet1_poulll",
-        color: "828282",
-        uniqsnd: !1
-    }, {
-        name: "effet2_tucati",
-        color: "828282",
+        name: "3_conductor",
+        color: "900C3F",
         uniqsnd: !0
     }, {
-        name: "effet3_tuilopta",
-        color: "828282",
-        uniqsnd: !1
-    }, {
-        name: "effet4_tululou",
-        color: "828282",
+        name: "4_baulk",
+        color: "900C3F",
         uniqsnd: !0
     }, {
-        name: "effet5_tumttt",
-        color: "828282",
+        name: "5_bandage",
+        color: "900C3F",
+        uniqsnd: !0
+    }, {
+        name: "6_bass",
+        color: "43BFC7",
         uniqsnd: !1
     }, {
-        name: "melo1_nananana",
-        color: "828282",
+        name: "7_shotter",
+        color: "43BFC7",
+        uniqsnd: !0
+    }, {
+        name: "8_coop",
+        color: "43BFC7",
+        uniqsnd: !0
+    }, {
+        name: "9_detector",
+        color: "43BFC7",
+        uniqsnd: !0
+    }, {
+        name: "10_concan",
+        color: "43BFC7",
+        uniqsnd: !0
+    }, {
+        name: "11_plimb",
+        color: "BA68C8",
+        uniqsnd: !0
+    }, {
+        name: "12_key",
+        color: "BA68C8",
+        uniqsnd: !0
+    }, {
+        name: "13_cosmo",
+        color: "BA68C8",
         uniqsnd: !1
     }, {
-        name: "melo2_pelulu",
-        color: "828282",
+        name: "14_bullo",
+        color: "BA68C8",
+        uniqsnd: !0
+    }, {
+        name: "15_richguy",
+        color: "BA68C8",
         uniqsnd: !1
     }, {
-        name: "melo3_siffle",
-        color: "828282",
+        name: "16_sunset",
+        color: "C35817",
+        uniqsnd: !0
+    }, {
+        name: "17_takeoff",
+        color: "C35817",
+        uniqsnd: !0
+    }, {
+        name: "18_choir",
+        color: "C35817",
         uniqsnd: !1
     }, {
-        name: "melo4_tatouti",
-        color: "828282",
-        uniqsnd: !1
+        name: "19_jack",
+        color: "C35817",
+        uniqsnd: !0
     }, {
-        name: "melo5_tvutvutvu",
-        color: "828282",
-        uniqsnd: !1
-    }, {
-        name: "coeur1_oaaah",
-        color: "828282",
-        uniqsnd: !1
-    }, {
-        name: "coeur2_cougou",
-        color: "828282",
-        uniqsnd: !1
-    }, {
-        name: "coeur3_porticoeur",
-        color: "828282",
-        uniqsnd: !1
-    }, {
-        name: "voix1_isit",
-        color: "828282",
-        uniqsnd: !1
-    }, {
-        name: "voix2_uare",
-        color: "828282",
-        uniqsnd: !1
-    }], this.bonusarray = [{
-        name: "Satisfied",
-        src: "v2-b1-satisfy-hb.mp4",
-        code: "1,4,6,9,12",
-        sound: "bonus-satisfy",
-        aspire: "aspire"
-    }, {
-        name: "Little Miss",
-        src: "v2-b2-miss-hb.mp4",
-        code: "5,6,7,13,15",
-        sound: "bonus-miss",
-        aspire: "aspire"
-    }, {
-        name: "Why this world",
-        src: "v2-b3-world-hb.mp4",
-        code: "6,8,9,14,18",
-        sound: "bonus-world",
-        aspire: "aspire"
+        name: "20_yeah",
+        color: "C35817",
+        uniqsnd: !0
     }];
     for (var o = 0, n = this.animearray.length; o < n; o++) {
         var i = this.animearray[o].name;
