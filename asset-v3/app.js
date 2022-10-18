@@ -1,103 +1,85 @@
-/* 0.5.4 2021-04-23 21:06:13 */
+/* 0.5.0 2022-08-00 00:00:00 */
 var app = new function() {
-    this.name = "Sunrise", this.version = "3", this.date = "2013", this.folder = "asset-v3/", this.looptime = 8e3, this.bpm = 120, this.totalframe = 384, this.nbpolo = 7, this.nbloopbonus = 4, this.bonusloopA = !0, this.bonusendloopA = !0, this.recmaxloop = 23, this.recminloop = 3, this.recmintime = Math.round(this.looptime / 1e3) * this.recminloop, this.spritepolo = "polo-sprite.png", this.spritepicto = "game-picto.png", this.colBck = "#001419", this.col0 = "#6E96A0", this.col1 = "#3C646E", this.col2 = "#28505A", this.col3 = "#143C46", this.col4 = "#002832", this.animearray = [{
-        name: "drum1_ballet",
-        color: "1EB482",
+    this.name = "Augury", this.version = "3", this.date = "2022", this.folder = "asset-v3/", this.looptime = 6400, this.bpm = 150, this.totalframe = 350, this.nbpolo = 7, this.nbloopbonus = 6, this.bonusloopA = !0, this.bonusendloopA = !1, this.recmaxloop = 27, this.recminloop = 4, this.recmintime = Math.round(this.looptime / 1e3) * this.recminloop, this.spritepolo = "polo-sprite.png", this.spritepicto = "game-picto.png", this.colBck = "#170723", this.col0 = "#573C6A", this.col1 = "#422758", this.col2 = "#2E1642", this.col3 = "#241036", this.col4 = "#170723", this.animearray = [{
+        name: "1_boxie",
+        color: "293562",
         uniqsnd: !0
     }, {
-        name: "drum2_kick",
-        color: "1EB482",
-        uniqsnd: !0
-    }, {
-        name: "drum3_snare",
-        color: "1EB482",
-        uniqsnd: !0
-    }, {
-        name: "drum4_lead",
-        color: "1EB482",
-        uniqsnd: !0
-    }, {
-        name: "drum5_charley",
-        color: "1EB482",
-        uniqsnd: !0
-    }, {
-        name: "effet1_long",
-        color: "50B4E6",
+        name: "2_screws",
+        color: "293562",
         uniqsnd: !1
     }, {
-        name: "effet2_daft1",
-        color: "50B4E6",
-        uniqsnd: !0
-    }, {
-        name: "effet3_tududu",
-        color: "50B4E6",
-        uniqsnd: !0
-    }, {
-        name: "effet4_daft2",
-        color: "50B4E6",
-        uniqsnd: !0
-    }, {
-        name: "effet5_rythme",
-        color: "50B4E6",
+        name: "3_tiky",
+        color: "293562",
         uniqsnd: !1
     }, {
-        name: "melo1_tuu",
-        color: "FA5050",
-        uniqsnd: !0
-    }, {
-        name: "melo2_indien",
-        color: "FA5050",
-        uniqsnd: !0
-    }, {
-        name: "melo3_armo",
-        color: "FA5050",
-        uniqsnd: !0
-    }, {
-        name: "melo4_clav",
-        color: "FA5050",
+        name: "4_chester",
+        color: "293562",
         uniqsnd: !1
     }, {
-        name: "melo5_siffle",
-        color: "FA5050",
+        name: "5_skull",
+        color: "293562",
         uniqsnd: !0
     }, {
-        name: "voix1_waya",
-        color: "E6C832",
+        name: "6_bass",
+        color: "953630",
+        uniqsnd: !1
+    }, {
+        name: "7_bonky",
+        color: "953630",
         uniqsnd: !0
     }, {
-        name: "voix2_ride",
-        color: "E6C832",
+        name: "8_atm",
+        color: "953630",
         uniqsnd: !1
     }, {
-        name: "voix3_over",
-        color: "E6C832",
+        name: "9_mike",
+        color: "953630",
         uniqsnd: !1
     }, {
-        name: "voix4_colors",
-        color: "E6C832",
+        name: "10_bricks",
+        color: "953630",
+        uniqsnd: !1
+    }, {
+        name: "11_luis",
+        color: "67497C",
+        uniqsnd: !1
+    }, {
+        name: "12_candles",
+        color: "67497C",
+        uniqsnd: !1
+    }, {
+        name: "13_christal",
+        color: "67497C",
         uniqsnd: !0
     }, {
-        name: "voix5_sunrise",
-        color: "E6C832",
+        name: "14_guard",
+        color: "67497C",
         uniqsnd: !1
-    }], this.bonusarray = [{
-        name: "Lill Child",
-        src: "v3-b1-child-hb.mp4",
-        code: "2,4,9,14,16",
-        sound: "bonus-child",
-        aspire: "aspire"
     }, {
-        name: "Dance",
-        src: "v3-b2-dance-hb.mp4",
-        code: "2,3,5,6,14",
-        sound: "bonus-dance",
-        aspire: "aspire"
+        name: "15_potion",
+        color: "67497C",
+        uniqsnd: !1
     }, {
-        name: "Sunrise",
-        src: "v3-b3-sunrise-hb.mp4",
-        code: "6,11,13,16,18",
-        sound: "bonus-sunrise",
-        aspire: "aspire"
+        name: "16_souls",
+        color: "476876",
+        uniqsnd: !1
+    }, {
+        name: "17_demon",
+        color: "476876",
+        uniqsnd: !1
+    }, {
+        name: "18_jack",
+        color: "476876",
+        uniqsnd: !1
+    }, {
+        name: "19_loan",
+        color: "476876",
+        uniqsnd: !1
+    }, {
+        name: "20_hehe",
+        color: "476876",
+        uniqsnd: !1
     }];
     for (var n = 0, o = this.animearray.length; n < o; n++) {
         var i = this.animearray[n].name;
