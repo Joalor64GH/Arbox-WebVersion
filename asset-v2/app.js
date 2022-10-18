@@ -80,7 +80,8 @@ var app = new function() {
         name: "20_yeah",
         color: "C35817",
         uniqsnd: !0
-    }];
+    }], this.bonusarray = [[/*No bonuses?*/]
+    ];
     for (var o = 0, n = this.animearray.length; o < n; o++) {
         var i = this.animearray[o].name;
         this.animearray[o].soundA = i + "_a", this.animearray[o].soundB = this.animearray[o].uniqsnd ? i + "_a" : i + "_b", this.animearray[o].anime = i + "-sprite.png", this.animearray[o].animeData = i + ".json"
