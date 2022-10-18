@@ -80,8 +80,25 @@ var app = new function() {
         name: "20_hehe",
         color: "476876",
         uniqsnd: !1
-    }], this.bonusarray = [[/*No bonuses?*/]
-    ];
+    }], this.bonusarray = [{
+        name: "Tour",
+        src: "v3-b1-riviera-hb.mp4",
+        code: "1,4,6,9,10",
+        sound: "21_bonus_tour",
+        aspire: "aspire"
+    }, {
+        name: "Reveal",
+        src: "v3-b2-dance-hb.mp4",
+        code: "3,4,5,6,14",
+        sound: "22_bonus_reveal",
+        aspire: "aspire"
+    }, {
+        name: "Airline",
+        src: "v3-b3-sunrise-hb.mp4",
+        code: "2,3,6,10,17",
+        sound: "23_bonus_airline",
+        aspire: "aspire"
+    }];
     for (var n = 0, o = this.animearray.length; n < o; n++) {
         var i = this.animearray[n].name;
         this.animearray[n].soundA = i + "_a", this.animearray[n].soundB = this.animearray[n].uniqsnd ? i + "_a" : i + "_b", this.animearray[n].anime = i + "-sprite.png", this.animearray[n].animeData = i + ".json"
