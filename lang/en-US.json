@@ -39,9 +39,9 @@
                 "other": "%{count} results"
             },
             "ago": "%{date_time} ago",
-            "baseline": "Welcome to Arbox!",
+            "baseline": "Welcome to Arbox! ^^",
             "useHeadphones": "For the best experience, use your headphones",
-            "selectVersion": "Choose a version to start",
+            "selectVersion": "Choose a version to start!",
             "enjoyVersion": "Enjoy other versions!",
             "tuto1": "<b>Drag and drop</b> an icon on<br>a character to have him sing",
             "tuto2": "<b>Drag down</b> a character<br>to have him stop singing",
