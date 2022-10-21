@@ -82,19 +82,19 @@ var app = new function() {
         uniqsnd: !0
     }], this.bonusarray = [{
         name: "Airport",
-        src: "v2-b1-satisfy-hb.mp4",
+        src: "v2-b1-airport-hb.mp4",
         code: "1,4,6,12,16",
         sound: "21_bonus_airport",
         aspire: "aspire"
     }, {
         name: "Ravage",
-        src: "v2-b2-miss-hb.mp4",
+        src: "v2-b2-ravage-hb.mp4",
         code: "3,4,5,9,13",
         sound: "22_bonus_ravage",
         aspire: "aspire"
     }, {
         name: "Clash",
-        src: "v2-b3-world-hb.mp4",
+        src: "v2-b3-clash-hb.mp4",
         code: "2,4,10,15,18",
         sound: "23_bonus_clash",
         aspire: "aspire"
