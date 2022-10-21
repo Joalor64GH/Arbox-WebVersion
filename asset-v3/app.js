@@ -3,7 +3,7 @@ var app = new function() {
     this.name = "Augury", this.version = "3", this.date = "2022", this.folder = "asset-v3/", this.looptime = 6400, this.bpm = 150, this.totalframe = 350, this.nbpolo = 7, this.nbloopbonus = 6, this.bonusloopA = !0, this.bonusendloopA = !1, this.recmaxloop = 27, this.recminloop = 4, this.recmintime = Math.round(this.looptime / 1e3) * this.recminloop, this.spritepolo = "polo-sprite.png", this.spritepicto = "game-picto.png", this.colBck = "#170723", this.col0 = "#573C6A", this.col1 = "#422758", this.col2 = "#2E1642", this.col3 = "#241036", this.col4 = "#170723", this.animearray = [{
         name: "1_boxie",
         color: "293562",
-        uniqsnd: !0
+        uniqsnd: !1
     }, {
         name: "2_screws",
         color: "293562",
@@ -82,19 +82,19 @@ var app = new function() {
         uniqsnd: !1
     }], this.bonusarray = [{
         name: "Tour",
-        src: "v3-b1-child-hb.mp4",
+        src: "v3-b1-tour-hb.mp4",
         code: "1,4,6,9,10",
         sound: "21_bonus_tour",
         aspire: "aspire"
     }, {
         name: "Reveal",
-        src: "v3-b2-dance-hb.mp4",
+        src: "v3-b2-reveal-hb.mp4",
         code: "1,5,6,14,19",
         sound: "22_bonus_reveal",
         aspire: "aspire"
     }, {
         name: "Airline",
-        src: "v3-b3-sunrise-hb.mp4",
+        src: "v3-b3-airline-hb.mp4",
         code: "1,6,13,17,18",
         sound: "23_bonus_airline",
         aspire: "aspire"
