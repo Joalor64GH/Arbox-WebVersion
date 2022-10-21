@@ -89,7 +89,7 @@ var app = new function() {
     }, {
         name: "Ravage",
         src: "v2-b2-ravage-hb.mp4",
-        code: "3,4,5,9,13",
+        code: "2,5,8,9,13",
         sound: "22_bonus_ravage",
         aspire: "aspire"
     }, {
