@@ -82,8 +82,8 @@ var app = new function() {
         uniqsnd: !1
     }], this.bonusarray = [{
         name: "Newcomer",
-        src: "v4-b1-newcomer-hb.mp4",
-        code: "1,2,13,14,17",
+        src: "21_newcomer_bonus-hb.mp4",
+        code: "1,2,12,14,17",
         sound: "bonus-newcomer",
         aspire: "aspire"
     }];
