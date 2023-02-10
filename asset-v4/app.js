@@ -43,15 +43,15 @@ var app = new function() {
     }, {
         name: "11_rammy",
         color: "A8175A",
-        uniqsnd: !1
+        uniqsnd: !0
     }, {
         name: "12_hikari",
         color: "A8175A",
-        uniqsnd: !1
+        uniqsnd: !0
     }, {
         name: "13_velda",
         color: "A8175A",
-        uniqsnd: !1
+        uniqsnd: !0
     }, {
         name: "14_tromby",
         color: "A8175A",
