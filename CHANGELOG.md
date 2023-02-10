@@ -1,6 +1,9 @@
 # Changelog
 
-## **[V3.8] (Latest)**
+## **[V4.0] (Latest)**
+* Armed Update
+* 
+## **[V3.8]**
 * Augury - All Bonuses
 
 ## **[V3.0]**
