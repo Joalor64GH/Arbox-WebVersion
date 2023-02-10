@@ -1,6 +1,6 @@
 # Changelog
 
-## **[V3.8 (Latest)]**
+## **[V3.8] (Latest)**
 * Augury - All Bonuses
 
 ## **[V3.0]**
