@@ -1,6 +1,6 @@
 ![](https://github.com/Joalor64GH/Arbox-WebVersion/blob/desktop/arboxGradient.png?raw=true)
 
-[![](https://github.com/Joalor64GH/Arbox-WebVersion/blob/desktop/downloadButton.png?raw=true)](https://www.mediafire.com/file/v4usdhmhvrpzs3y/Arbox+-+Episode+4.apk/file)
+[![](https://github.com/Joalor64GH/Arbox-WebVersion/blob/desktop/downloadButton.png?raw=true)](https://www.mediafire.com/file/8n60sw5e2ntplw9/Arbox+-+Episode+4+(+Full+).apk/file)
 
 # Arbox
 An Incredimod created by [RB-Series](https://www.youtube.com/channel/UCC3ezszbfRDrUo5vlf7u9yQ).

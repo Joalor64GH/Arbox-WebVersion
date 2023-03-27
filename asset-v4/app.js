@@ -82,9 +82,21 @@ var app = new function() {
         uniqsnd: !1
     }], this.bonusarray = [{
         name: "Newcomer",
-        src: "21_newcomer_bonus-hb.mp4",
+        src: "newcomer_bonus-hb.mp4",
         code: "1,2,12,14,17",
         sound: "bonus-newcomer",
+        aspire: "aspire"
+    }, {
+        name: "The Virus",
+        src: "the_virus_bonus-hb.mp4",
+        code: "1,2,11,15,19",
+        sound: "bonus-the-virus",
+        aspire: "reunion-aspire"
+    }, {
+        name: "Freedom",
+        src: "freedom_bonus-hb.mp4",
+        code: "6,12,13,15,17",
+        sound: "bonus-freedom",
         aspire: "aspire"
     }];
     for (var o = 0, n = this.animearray.length; o < n; o++) {
