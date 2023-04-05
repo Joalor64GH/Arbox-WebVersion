@@ -1,6 +1,9 @@
 # Changelog
 
-## **[V4.0] (Latest)**
+## **[V4.5] (Latest)**
+* Armed - All Scenes
+
+## **[V4.0]**
 * Armed Update
 
 ## **[V3.8]**
