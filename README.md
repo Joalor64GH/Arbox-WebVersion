@@ -7,11 +7,10 @@ An Incredimod created by [RB-Series](https://www.youtube.com/channel/UCC3ezszbfR
 
 Feel free to check out the [changelog](https://github.com/Joalor64GH/Arbox-WebVersion/blob/desktop/CHANGELOG.md).
 
-## "What is Arbox?"
-The story of a young hero called "Mike" who has incredible skills and abilities which are powered by the sun's energy.
+## What is Arbute Club?
 
-His mission is to protect his universe with his team called "The Scarlets" from evil bosses and teams who's purposes are to destroy them and take over their universe.
+"Arbute Club" or "Arbox" is an anime that tells the story of a group with 5 boys who have special powers and abilities, whose purpose is to save their universe from evil bosses and invaders, showing all their adventures, battles, experiences and brillant encounters with many people. The full manga still in development!
 
-Along with the guide maps he'll be finding on his adventures, he will be guided little by little to his next mission and destroy the evil bosses together with his team!
+## Where does the word "Arbute" come from?
 
-✦  - The Scarlets -  ✦
+Arbute comes from the word "Arbutus" which is a fruit tree, referring to the place where The Scarletts met when they were children, which was a beautiful field with a small mountain and a giant tree full of juicy red arbutes.
